@@ -1,0 +1,11 @@
+<!-- BEGIN_INCLUDE(mongooplogcursor:dbobjectToJson) -->
+    <mongooplogcursor:dbobject-to-json />
+<!-- END_INCLUDE(mongooplogcursor:dbobjectToJson) -->
+
+<!-- BEGIN_INCLUDE(mongooplogcursor:dbobjectToMap) -->
+    <mongooplogcursor:dbobject-to-map />
+<!-- END_INCLUDE(mongooplogcursor:dbobjectToMap) -->
+
+<!-- BEGIN_INCLUDE(mongooplogcursor:oplogCursor) -->
+    <mongooplogcursor:oplog-cursor namespace="sample.namespace" monitorInserts="true" monitorUpdates="true" />
+<!-- END_INCLUDE(mongooplogcursor:oplogCursor) -->
